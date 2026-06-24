@@ -137,7 +137,6 @@ Through this program, I aim to:
 
 ## Author
 
-**Lavanya**
-
+@LavanyaGurajala
 Java Full Stack Engineer Trainee  
 Cognizant Digital Nurture 5.0
