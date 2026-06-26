@@ -17,7 +17,7 @@ The objective of this program is to strengthen Full Stack Development skills usi
 
 ✅ Week 1 - Design Patterns & Data Structures and Algorithms
 
-⬜ Week 2 - PL/SQL, JUnit 5, Mockito, SLF4J Logging
+✅ Week 2 - PL/SQL, JUnit 5, Mockito, SLF4J Logging
 
 ⬜ Week 3 - Spring Core & Maven
 
