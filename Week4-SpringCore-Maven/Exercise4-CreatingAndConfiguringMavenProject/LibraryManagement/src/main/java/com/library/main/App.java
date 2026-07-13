@@ -1,0 +1,8 @@
+package com.library.main;
+
+public class App {
+
+    public static void main(String[] args) {
+        System.out.println("Maven project configured successfully.");
+    }
+}
