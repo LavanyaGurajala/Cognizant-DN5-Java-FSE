@@ -21,9 +21,9 @@ The objective of this program is to strengthen Full Stack Development skills usi
 
 ✅ Week 3 - Spring Core & Maven
 
-⬜ Week 4 - Spring Data JPA & Hibernate
+✅ Week 4 - Spring Data JPA & Hibernate
 
-⬜ Week 5 - Spring REST APIs & JWT Authentication
+✅ Week 5 - Completed
 
 ⬜ Week 6 - Microservices with Spring Boot
 
@@ -67,7 +67,6 @@ The objective of this program is to strengthen Full Stack Development skills usi
 - Cloud Fundamentals
 
 ---
-
 
 ## Weekly Learning Roadmap
 
