@@ -23,7 +23,7 @@ The objective of this program is to strengthen Full Stack Development skills usi
 
 ✅ Week 4 - Spring Data JPA & Hibernate
 
-✅ Week 5 - Completed
+✅ Week 5 - Spring Data JPA & Hibernate
 
 ⬜ Week 6 - Microservices with Spring Boot
 
