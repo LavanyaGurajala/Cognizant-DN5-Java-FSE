@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/util
+           https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="engineeringDepartment" class="com.ems.entity.Department">
+        <property name="id" value="1"/>
+        <property name="name" value="Engineering"/>
+    </bean>
+
+    <bean id="humanResourcesDepartment" class="com.ems.entity.Department">
+        <property name="id" value="2"/>
+        <property name="name" value="Human Resources"/>
+    </bean>
+
+    <bean id="departmentDao" class="com.ems.dao.DepartmentDao">
+        <property name="departments">
+            <list>
+                <ref bean="engineeringDepartment"/>
+                <ref bean="humanResourcesDepartment"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="employeeDao" class="com.ems.dao.EmployeeDao">
+        <property name="employees">
+            <list>
+                <bean class="com.ems.entity.Employee">
+                    <property name="id" value="101"/>
+                    <property name="name" value="Asha"/>
+                    <property name="email" value="asha@example.com"/>
+                    <property name="department" ref="engineeringDepartment"/>
+                </bean>
+                <bean class="com.ems.entity.Employee">
+                    <property name="id" value="102"/>
+                    <property name="name" value="Rahul"/>
+                    <property name="email" value="rahul@example.com"/>
+                    <property name="department" ref="humanResourcesDepartment"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="departmentService" class="com.ems.service.DepartmentService">
+        <property name="departmentDao" ref="departmentDao"/>
+    </bean>
+
+    <bean id="employeeService" class="com.ems.service.EmployeeService">
+        <property name="employeeDao" ref="employeeDao"/>
+    </bean>
+</beans>
