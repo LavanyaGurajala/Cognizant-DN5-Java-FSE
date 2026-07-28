@@ -27,7 +27,7 @@ The objective of this program is to strengthen Full Stack Development skills usi
 
 ✅ Week 6 - Microservices with Spring Boot
 
-⬜ Week 7 - Microservices with Spring Boot 3 & Spring Cloud
+✅ Week 7 - Microservices with Spring Boot 3 & Spring Cloud
 
 ---
 
