@@ -27,7 +27,7 @@ The objective of this program is to strengthen Full Stack Development skills usi
 
 ✅ Week 6 - Microservices with Spring Boot
 
-⬜ Week 7 - React & Git Version Control
+⬜ Week 7 - Microservices with Spring Boot 3 & Spring Cloud
 
 ---
 
@@ -96,8 +96,9 @@ The objective of this program is to strengthen Full Stack Development skills usi
 - Microservices with Spring Boot
 
 ### Week 7
-- React
-- Git & Version Control
+- Microservices with Spring Boot 3
+- Spring Cloud
+- Eureka, Gateway, Load Balancing, Config, Security
 
 ---
 
